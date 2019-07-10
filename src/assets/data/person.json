@@ -1,0 +1,52 @@
+[
+    {
+        "email":	"maria.alfonza.m.ocio",
+        "name": "mariel",
+        "password": "123456789"
+    },
+    {
+        "email":	"naome.angela.l.banda",
+        "name": "naome",
+        "password": "123456789"
+    },
+    {
+        "email":	"justine.q.topacio",
+        "name": "justine",
+        "password": "123456789"
+    },
+    {
+        "email":	"jea.s.reyes",
+        "name": "jea",
+        "password": "123456789"
+    },
+    {
+        "email":	"trisha.p.abarquez",
+        "name": "trish",
+        "password": "123456789"
+    },
+    {
+        "email":	"marythel.j.c.rodimo",
+        "name": "mj",
+        "password": "123456789"
+    },
+    {
+        "email":	"seline.christi.u.sia",
+        "name": "seline",
+        "password": "123456789"
+    },
+    {
+        "email":	"sandra.alec.f.pacot",
+        "name": "alec",
+        "password": "123456789"
+    },
+    {
+        "email":	"michaela.s.jubilo",
+        "name": "mica",
+        "password": "123456789"
+    },
+    {
+        "email":	"lorraine.joy.l.sun",
+        "name": "lorraine",
+        "password": "123456789"
+    }
+]

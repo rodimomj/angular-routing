@@ -1,11 +1,29 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Routing and Navigation
-  </h1>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="float-right">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" routerLink="/departments" routerLinkActive="active">Departments <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" routerLink="/employees" routerLinkActive="active">Employees <span
+                class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </div>
-<nav>
-  <button routerLink="/departments" routerLinkActive="active">Departments</button>
-  <button routerLink="/employees" routerLinkActive="active">Employees</button>
-</nav>
-<router-outlet></router-outlet>
+<div style="padding-top: 2em;"></div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

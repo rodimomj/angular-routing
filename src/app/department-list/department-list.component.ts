@@ -5,19 +5,19 @@ import { ActivatedRoute, Router, ParamMap } from '@angular/router';
 @Component({
   selector: 'app-department-list',
   template: `
+  <div class="container" style="padding-left:2em;">
     <div style="float: left; width: 200px;">
       <h3>{{ errorMsg }}</h3>
-      <ul class="items">
-        <li (click)="onSelect(department)" [class.selected]="selected(department)" *ngFor ="let department of departments">
-          <span class="badge"> {{ department.id }}) </span> {{ department.name }}
+      <ul class="list-group">
+        <li class="list-group-item" (click)="onSelect(department)" [class.selected]="selected(department)" *ngFor ="let department of departments">
+           {{ department.name }}
         </li> 
       </ul>
     </div>
+  </div>
     
   `,
-  styles: [` .text-highlight{
-    color: blue;
-  }`]
+  styles: []
 })
 export class DepartmentListComponent implements OnInit {
 
